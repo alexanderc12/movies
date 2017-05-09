@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Movies UPTC' });
+  res.render('index', { title: 'Movies UPTC - v2' });
 });
 
 module.exports = router;
